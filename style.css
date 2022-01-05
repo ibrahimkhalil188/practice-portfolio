@@ -8,6 +8,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    
 }
 .menu a{
     text-decoration: none;
@@ -80,5 +82,26 @@ h3{
 .profile-image{
     width:70%;
     margin-top: 50px;
+}
 
+hr{ 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+.service{
+    display: flex;
+}
+.service div{
+    padding: 10px;
+    margin: 20px;
+    width:400px;
+    height:300px;
+    border:1px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px gray;
+
+}
+.service div:hover{
+    background-color: #ff014f;
 }
