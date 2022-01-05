@@ -105,3 +105,6 @@ hr{
 .service div:hover{
     background-color: #ff014f;
 }
+.copy{
+    text-align: center;
+}
