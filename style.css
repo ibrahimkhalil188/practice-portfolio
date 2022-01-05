@@ -54,7 +54,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 125px;
     
 }
 .find-me div a img{
@@ -62,17 +62,16 @@ h3{
         height: 40px;
         margin:10px;
         padding:10px;
-        border: 1px solid black;
-} 
+}
 .icon a img:hover{
-    color: #ff014f;
+    background-color: white;
+    border-radius: 10px;
 } 
 .best-skill img{
     width: 40px;
     height: 40px;
     margin:10px;
     padding:10px;
-    border: 1px solid black;
 }
 
 .best-skill h3{
